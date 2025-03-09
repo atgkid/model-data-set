@@ -1,0 +1,501 @@
+User_ID,Age,Gender,Medical_Conditions,Allergies,Dietary_Preferences,Meal_Time,Preferred_Cuisine,Food_Aversions,Nutrient_Intake_Calories,Nutrient_Intake_Protein,Nutrient_Intake_Carbs,Nutrient_Intake_Fat,Feedback_Score,Last_Recommended_Meal,Meal_Acceptance,Adaptation_Flag
+user_1,32,Male,Diabetes,Lactose,Vegan,Breakfast,Italian,Spicy,2532,63,238,39,1,Accepted,Yes,No Change
+user_2,55,Other,Heart Disease,Gluten,Paleo,Dinner,Indian,Spicy,1624,57,186,95,2,Rejected,No,No Change
+user_3,27,Male,Obesity,None,Vegetarian,Dinner,American,Fried,2406,84,296,83,1,Accepted,Yes,No Change
+user_4,64,Male,None,Lactose,Omnivore,Dinner,Mexican,None,2994,96,242,53,1,Accepted,Yes,No Change
+user_5,49,Male,Heart Disease,Peanuts,Vegetarian,Breakfast,Indian,Dairy,2371,112,226,55,2,Rejected,No,Improved
+user_6,35,Female,Hypertension,Peanuts,Keto,Lunch,Indian,Spicy,2386,114,277,62,4,Accepted,Yes,No Change
+user_7,45,Male,None,Gluten,Vegan,Breakfast,Chinese,None,2601,80,287,91,5,Accepted,No,Improved
+user_8,30,Male,None,Gluten,Vegetarian,Lunch,Mexican,Fried,1660,106,195,95,3,Accepted,Yes,Improved
+user_9,64,Female,Hypertension,Gluten,Vegetarian,Lunch,Italian,Spicy,1610,47,287,90,4,Rejected,Yes,No Change
+user_10,36,Female,Heart Disease,Gluten,Paleo,Lunch,Mexican,Dairy,2858,50,151,67,4,Rejected,No,No Change
+user_11,60,Male,Heart Disease,Gluten,Vegetarian,Breakfast,Indian,Fried,1926,48,197,53,5,Rejected,No,No Change
+user_12,60,Other,Diabetes,None,Vegan,Dinner,Indian,None,2134,57,242,83,5,Rejected,No,No Change
+user_13,39,Female,Hypertension,Gluten,Omnivore,Breakfast,Indian,Fried,1709,94,254,36,1,Accepted,Yes,No Change
+user_14,20,Male,Diabetes,None,Vegan,Lunch,American,Dairy,2210,103,254,80,2,Rejected,Yes,No Change
+user_15,66,Female,Hypertension,Gluten,Keto,Dinner,Italian,Fried,2647,52,166,38,5,Accepted,Yes,Improved
+user_16,23,Female,Hypertension,Lactose,Omnivore,Dinner,Italian,Dairy,2333,74,113,44,1,Rejected,No,Improved
+user_17,35,Female,None,Gluten,Vegan,Lunch,Mexican,Spicy,2423,86,250,97,5,Accepted,Yes,No Change
+user_18,39,Other,None,Lactose,Vegan,Breakfast,Italian,Fried,2527,98,145,51,5,Rejected,No,Improved
+user_19,53,Male,Hypertension,Peanuts,Paleo,Lunch,American,Spicy,1886,42,119,93,3,Accepted,Yes,Improved
+user_20,74,Male,Heart Disease,None,Keto,Lunch,Mexican,Dairy,2376,110,177,53,2,Rejected,Yes,No Change
+user_21,73,Other,Hypertension,None,Vegetarian,Breakfast,Chinese,Fried,1899,58,286,79,4,Accepted,No,No Change
+user_22,41,Male,Diabetes,Peanuts,Vegetarian,Dinner,Mexican,Spicy,2831,51,295,57,1,Rejected,Yes,Improved
+user_23,39,Other,Hypertension,Peanuts,Omnivore,Dinner,American,None,2093,77,227,74,4,Accepted,No,Improved
+user_24,75,Female,None,Gluten,Vegetarian,Lunch,American,Dairy,2793,49,271,96,2,Rejected,Yes,Improved
+user_25,58,Other,Obesity,None,Paleo,Breakfast,American,Dairy,1894,103,199,84,2,Accepted,No,Improved
+user_26,63,Male,Obesity,Peanuts,Omnivore,Lunch,Indian,Spicy,2467,116,202,52,2,Rejected,No,Improved
+user_27,50,Male,Heart Disease,None,Vegan,Lunch,Chinese,None,2788,48,227,52,2,Accepted,Yes,No Change
+user_28,47,Other,Heart Disease,Peanuts,Vegan,Breakfast,American,Fried,2734,43,280,71,5,Accepted,No,Improved
+user_29,48,Male,Hypertension,Gluten,Vegetarian,Breakfast,American,None,1651,70,277,70,1,Accepted,No,Improved
+user_30,75,Female,Obesity,Gluten,Keto,Lunch,Indian,None,1501,86,163,61,2,Accepted,No,Improved
+user_31,23,Female,None,Lactose,Keto,Lunch,Indian,Spicy,1706,97,177,60,4,Accepted,Yes,Improved
+user_32,51,Female,Diabetes,Lactose,Keto,Lunch,Mexican,Spicy,1621,87,266,72,4,Rejected,Yes,No Change
+user_33,42,Other,Heart Disease,Peanuts,Paleo,Lunch,Indian,Dairy,1568,77,129,95,2,Rejected,Yes,No Change
+user_34,65,Male,Obesity,None,Keto,Lunch,Mexican,Fried,2598,52,196,53,3,Accepted,Yes,No Change
+user_35,52,Female,Obesity,Peanuts,Paleo,Breakfast,Indian,Spicy,2955,50,286,57,2,Accepted,No,Improved
+user_36,59,Other,Diabetes,Lactose,Vegan,Dinner,Mexican,None,2519,47,275,93,3,Rejected,No,Improved
+user_37,61,Female,Hypertension,Lactose,Keto,Breakfast,Chinese,Fried,2405,111,207,74,3,Rejected,Yes,Improved
+user_38,42,Female,Heart Disease,Peanuts,Omnivore,Lunch,Italian,Fried,1862,106,279,65,5,Accepted,Yes,No Change
+user_39,70,Female,Hypertension,Lactose,Keto,Breakfast,Italian,Fried,2115,53,186,55,3,Rejected,No,No Change
+user_40,67,Other,Heart Disease,Lactose,Keto,Lunch,Chinese,Fried,2401,50,282,75,4,Rejected,No,Improved
+user_41,26,Other,Hypertension,Gluten,Paleo,Dinner,Italian,None,1902,49,136,82,2,Rejected,No,Improved
+user_42,53,Other,None,Peanuts,Keto,Breakfast,Mexican,Spicy,2160,86,283,74,4,Rejected,No,Improved
+user_43,46,Male,Diabetes,Peanuts,Vegan,Dinner,Italian,Spicy,1683,77,219,67,2,Accepted,Yes,No Change
+user_44,42,Male,Heart Disease,None,Keto,Breakfast,Mexican,Spicy,2436,45,231,70,2,Rejected,Yes,Improved
+user_45,50,Male,Hypertension,None,Vegan,Dinner,Italian,Spicy,2871,120,133,85,5,Rejected,Yes,No Change
+user_46,58,Male,Heart Disease,None,Vegetarian,Lunch,Italian,None,2738,55,113,80,2,Rejected,Yes,No Change
+user_47,74,Male,Heart Disease,None,Vegan,Dinner,Mexican,Fried,1828,55,215,82,5,Accepted,Yes,Improved
+user_48,24,Male,Heart Disease,Gluten,Vegan,Dinner,American,None,2384,85,194,59,1,Rejected,Yes,Improved
+user_49,43,Other,None,None,Vegan,Dinner,Mexican,Dairy,1823,99,252,98,3,Accepted,No,Improved
+user_50,53,Other,Obesity,Peanuts,Vegetarian,Lunch,Italian,None,2810,71,176,95,4,Accepted,Yes,Improved
+user_51,64,Female,Hypertension,None,Keto,Dinner,American,Dairy,1691,117,274,56,4,Rejected,Yes,No Change
+user_52,65,Female,Hypertension,Peanuts,Vegetarian,Lunch,Indian,None,1500,119,235,78,5,Accepted,No,Improved
+user_53,62,Other,None,Gluten,Omnivore,Breakfast,Chinese,Dairy,2263,110,123,38,5,Rejected,No,No Change
+user_54,28,Female,Hypertension,None,Vegetarian,Dinner,Indian,Fried,2683,59,202,89,2,Accepted,No,Improved
+user_55,67,Other,Obesity,Peanuts,Vegetarian,Breakfast,Italian,None,2696,49,244,32,5,Rejected,Yes,No Change
+user_56,20,Male,Diabetes,Lactose,Vegan,Dinner,Italian,Dairy,2124,70,187,70,1,Rejected,No,Improved
+user_57,37,Female,Hypertension,Lactose,Paleo,Breakfast,Indian,None,2174,44,265,39,1,Accepted,No,Improved
+user_58,51,Other,Hypertension,Lactose,Vegetarian,Breakfast,Indian,Spicy,1899,54,128,96,5,Accepted,Yes,No Change
+user_59,47,Female,Obesity,Gluten,Keto,Breakfast,Chinese,Dairy,2913,65,163,85,5,Rejected,No,Improved
+user_60,66,Male,None,Peanuts,Vegetarian,Breakfast,Italian,None,1523,88,281,45,3,Accepted,No,Improved
+user_61,32,Female,Diabetes,None,Keto,Lunch,Italian,None,1725,62,266,32,2,Accepted,Yes,Improved
+user_62,25,Female,None,Lactose,Vegan,Breakfast,Italian,None,2138,116,134,91,1,Rejected,No,No Change
+user_63,29,Female,None,None,Vegan,Dinner,Chinese,Spicy,2111,112,128,46,3,Accepted,Yes,Improved
+user_64,42,Other,None,Gluten,Omnivore,Dinner,Mexican,Spicy,2899,66,231,30,2,Rejected,No,No Change
+user_65,36,Female,Diabetes,Lactose,Keto,Breakfast,Chinese,Fried,1610,119,208,36,2,Accepted,Yes,Improved
+user_66,22,Male,Diabetes,Lactose,Paleo,Lunch,Mexican,Fried,1504,59,102,42,5,Rejected,No,No Change
+user_67,69,Other,Diabetes,Lactose,Omnivore,Breakfast,Italian,None,2322,65,286,57,4,Accepted,Yes,No Change
+user_68,37,Other,Heart Disease,Peanuts,Keto,Breakfast,Italian,Dairy,2820,81,277,35,5,Rejected,Yes,No Change
+user_69,49,Female,Diabetes,None,Keto,Breakfast,Indian,None,1741,73,259,54,1,Accepted,Yes,Improved
+user_70,37,Female,None,None,Vegetarian,Breakfast,Mexican,Spicy,1733,75,217,53,4,Rejected,Yes,Improved
+user_71,74,Male,Obesity,Gluten,Keto,Lunch,Indian,Fried,1583,40,145,53,1,Accepted,Yes,No Change
+user_72,48,Other,Hypertension,Lactose,Vegan,Breakfast,American,None,2273,70,237,43,4,Accepted,Yes,Improved
+user_73,42,Female,Diabetes,None,Keto,Dinner,Italian,Fried,1679,91,294,83,5,Rejected,Yes,No Change
+user_74,50,Female,Hypertension,Peanuts,Keto,Breakfast,Mexican,Dairy,2916,75,280,39,5,Rejected,No,No Change
+user_75,33,Male,None,Peanuts,Paleo,Dinner,Indian,Spicy,2599,102,290,81,1,Rejected,Yes,No Change
+user_76,52,Other,Obesity,Peanuts,Omnivore,Dinner,Mexican,Spicy,1768,46,184,97,3,Accepted,No,Improved
+user_77,45,Male,Obesity,None,Vegan,Dinner,Mexican,Fried,1959,107,223,59,4,Rejected,No,No Change
+user_78,36,Male,Diabetes,None,Vegetarian,Dinner,Chinese,Spicy,1889,99,299,82,3,Accepted,No,No Change
+user_79,21,Other,Heart Disease,None,Paleo,Dinner,Chinese,None,1732,45,246,83,5,Rejected,No,No Change
+user_80,34,Male,Obesity,None,Omnivore,Lunch,Indian,Spicy,1541,107,114,70,5,Accepted,Yes,Improved
+user_81,28,Female,Heart Disease,None,Keto,Dinner,Indian,Fried,2447,77,127,46,5,Rejected,No,Improved
+user_82,75,Male,None,Lactose,Omnivore,Dinner,American,Fried,1836,96,138,47,1,Accepted,Yes,Improved
+user_83,51,Female,Diabetes,Peanuts,Vegan,Breakfast,Indian,Fried,2970,74,227,93,4,Rejected,No,Improved
+user_84,39,Female,Obesity,Gluten,Vegetarian,Breakfast,Indian,Spicy,2638,60,187,50,2,Rejected,No,Improved
+user_85,50,Other,Obesity,Lactose,Vegetarian,Breakfast,Chinese,Fried,1947,66,120,33,5,Accepted,Yes,No Change
+user_86,67,Female,Hypertension,Lactose,Paleo,Breakfast,Indian,None,1916,64,250,63,3,Rejected,No,Improved
+user_87,62,Female,Hypertension,Lactose,Vegan,Breakfast,American,Dairy,2430,89,176,52,4,Accepted,Yes,No Change
+user_88,74,Female,Diabetes,None,Omnivore,Breakfast,American,Dairy,2585,55,270,63,4,Accepted,No,No Change
+user_89,51,Male,None,Gluten,Vegan,Dinner,Italian,Dairy,2391,68,167,45,5,Accepted,No,Improved
+user_90,40,Female,Obesity,None,Vegan,Breakfast,Italian,Dairy,2868,77,110,55,5,Rejected,Yes,Improved
+user_91,66,Female,Obesity,Gluten,Vegan,Lunch,Chinese,Spicy,2299,82,187,89,5,Accepted,No,No Change
+user_92,33,Male,Diabetes,Peanuts,Omnivore,Breakfast,Mexican,Dairy,2678,111,199,43,3,Rejected,Yes,No Change
+user_93,23,Female,None,Gluten,Omnivore,Lunch,Italian,Fried,2313,87,193,47,1,Accepted,Yes,No Change
+user_94,73,Female,Hypertension,Gluten,Paleo,Lunch,American,Spicy,1532,81,160,63,2,Rejected,No,No Change
+user_95,43,Other,Diabetes,Peanuts,Paleo,Breakfast,Indian,None,2479,82,281,95,4,Rejected,Yes,Improved
+user_96,65,Female,Heart Disease,None,Omnivore,Lunch,Mexican,Dairy,2917,87,102,85,4,Rejected,No,No Change
+user_97,20,Other,Diabetes,Lactose,Omnivore,Lunch,Indian,Dairy,1778,42,159,90,4,Rejected,Yes,Improved
+user_98,58,Female,None,None,Keto,Dinner,Chinese,None,2654,88,244,34,3,Accepted,No,No Change
+user_99,40,Male,Heart Disease,Gluten,Keto,Lunch,American,Fried,2251,111,206,90,1,Rejected,No,No Change
+user_100,38,Male,Obesity,None,Paleo,Dinner,Mexican,None,2974,107,240,54,5,Rejected,Yes,No Change
+user_101,59,Other,Obesity,Peanuts,Vegan,Dinner,American,None,2730,112,162,66,1,Accepted,No,No Change
+user_102,71,Female,Heart Disease,Gluten,Keto,Dinner,Italian,Spicy,2597,100,245,53,2,Accepted,No,Improved
+user_103,29,Other,Diabetes,Gluten,Vegetarian,Breakfast,Mexican,Spicy,1521,62,279,60,4,Accepted,No,No Change
+user_104,73,Other,None,Lactose,Paleo,Dinner,Italian,None,2023,67,172,40,3,Accepted,Yes,Improved
+user_105,73,Other,None,None,Keto,Breakfast,Indian,Dairy,1670,74,259,90,1,Accepted,Yes,Improved
+user_106,35,Female,None,Lactose,Omnivore,Dinner,Chinese,Fried,2645,117,113,93,5,Rejected,Yes,Improved
+user_107,46,Male,None,Lactose,Vegetarian,Breakfast,Chinese,Spicy,1672,52,236,71,5,Rejected,No,No Change
+user_108,63,Other,None,Gluten,Keto,Breakfast,Mexican,Fried,2592,93,100,36,4,Rejected,No,Improved
+user_109,28,Other,Heart Disease,Peanuts,Omnivore,Breakfast,Italian,Fried,2953,45,221,90,4,Accepted,Yes,Improved
+user_110,28,Female,None,Gluten,Keto,Dinner,American,Spicy,1623,68,110,41,1,Accepted,Yes,Improved
+user_111,28,Other,Hypertension,None,Omnivore,Lunch,American,Fried,1514,119,150,90,4,Accepted,Yes,Improved
+user_112,18,Female,Heart Disease,Lactose,Vegan,Dinner,Chinese,Spicy,2701,116,179,53,3,Rejected,No,No Change
+user_113,53,Other,Heart Disease,Gluten,Keto,Breakfast,American,Fried,2312,107,213,44,3,Accepted,Yes,No Change
+user_114,56,Other,Diabetes,Lactose,Keto,Dinner,Indian,Fried,1720,90,112,56,1,Accepted,Yes,No Change
+user_115,43,Female,Heart Disease,None,Keto,Lunch,Indian,Fried,1890,68,272,31,2,Rejected,Yes,No Change
+user_116,36,Female,Obesity,None,Vegan,Dinner,Indian,Dairy,1972,80,164,55,4,Accepted,No,No Change
+user_117,44,Other,None,Peanuts,Paleo,Dinner,Italian,Spicy,2206,60,205,50,2,Rejected,No,Improved
+user_118,40,Female,Obesity,Gluten,Vegan,Dinner,Indian,Fried,2903,100,127,43,4,Accepted,Yes,No Change
+user_119,44,Other,None,None,Omnivore,Lunch,Indian,Dairy,2926,80,134,61,5,Accepted,No,No Change
+user_120,60,Female,Heart Disease,Lactose,Vegan,Breakfast,American,None,2034,95,219,33,3,Rejected,Yes,No Change
+user_121,37,Male,Diabetes,Gluten,Vegetarian,Dinner,Chinese,None,1532,79,221,84,2,Rejected,Yes,No Change
+user_122,21,Male,Heart Disease,Peanuts,Omnivore,Lunch,Chinese,Dairy,1783,42,166,62,4,Accepted,No,Improved
+user_123,51,Other,Diabetes,Peanuts,Vegetarian,Dinner,Italian,Fried,1900,68,261,61,4,Accepted,Yes,Improved
+user_124,21,Other,Hypertension,Peanuts,Omnivore,Lunch,Indian,Fried,1766,66,215,34,1,Accepted,Yes,Improved
+user_125,63,Male,Diabetes,Lactose,Vegan,Dinner,Italian,None,2066,54,240,78,5,Rejected,No,No Change
+user_126,66,Female,None,Lactose,Keto,Dinner,Mexican,Fried,2446,47,271,87,5,Accepted,Yes,Improved
+user_127,38,Other,Hypertension,Gluten,Vegetarian,Dinner,American,Dairy,1976,74,233,69,5,Accepted,No,Improved
+user_128,47,Male,Heart Disease,Gluten,Keto,Breakfast,Indian,Dairy,2322,86,107,43,5,Accepted,Yes,Improved
+user_129,34,Female,Diabetes,Peanuts,Vegetarian,Breakfast,American,Fried,1549,75,272,40,1,Rejected,No,Improved
+user_130,34,Female,Hypertension,Lactose,Omnivore,Breakfast,Mexican,None,2698,55,103,37,4,Rejected,No,No Change
+user_131,65,Other,Diabetes,Gluten,Vegan,Lunch,Indian,Fried,2005,48,185,76,3,Rejected,No,Improved
+user_132,29,Female,Obesity,Lactose,Vegetarian,Lunch,Chinese,None,1909,50,151,68,2,Accepted,Yes,No Change
+user_133,21,Other,Diabetes,Gluten,Paleo,Dinner,Chinese,None,2201,40,200,53,2,Accepted,Yes,Improved
+user_134,68,Female,Obesity,Gluten,Keto,Lunch,Chinese,None,2796,47,183,33,3,Accepted,No,Improved
+user_135,38,Male,Diabetes,Lactose,Omnivore,Dinner,Italian,Dairy,2998,104,282,98,4,Accepted,Yes,Improved
+user_136,75,Other,Obesity,Lactose,Vegan,Dinner,Mexican,None,2532,111,260,68,4,Accepted,Yes,Improved
+user_137,36,Other,Hypertension,Lactose,Keto,Breakfast,Chinese,None,1812,101,275,60,4,Accepted,Yes,No Change
+user_138,74,Other,Heart Disease,Gluten,Paleo,Lunch,Chinese,Spicy,2764,98,254,41,3,Rejected,No,No Change
+user_139,43,Female,Hypertension,Lactose,Keto,Dinner,Italian,Spicy,2523,109,200,35,3,Accepted,Yes,No Change
+user_140,73,Male,Obesity,Gluten,Omnivore,Dinner,American,Fried,1732,94,176,62,5,Rejected,Yes,No Change
+user_141,58,Male,Heart Disease,None,Paleo,Dinner,Mexican,Spicy,2947,105,126,65,5,Accepted,Yes,Improved
+user_142,34,Female,Diabetes,Gluten,Vegan,Dinner,Indian,None,1577,99,223,53,3,Rejected,Yes,Improved
+user_143,53,Other,Heart Disease,Peanuts,Vegan,Lunch,American,None,2599,88,236,33,2,Rejected,No,No Change
+user_144,65,Female,Hypertension,Lactose,Keto,Lunch,Indian,Spicy,1581,56,248,54,5,Rejected,Yes,Improved
+user_145,19,Other,Obesity,None,Vegetarian,Breakfast,Mexican,Dairy,2104,101,281,63,2,Rejected,Yes,No Change
+user_146,46,Other,Diabetes,Lactose,Vegetarian,Dinner,Indian,Spicy,2218,73,210,71,1,Rejected,Yes,Improved
+user_147,48,Male,Heart Disease,Lactose,Paleo,Lunch,Mexican,Fried,2548,108,245,90,2,Accepted,No,No Change
+user_148,33,Male,Hypertension,Peanuts,Paleo,Dinner,Chinese,None,2200,117,216,67,4,Accepted,Yes,Improved
+user_149,23,Female,Diabetes,Peanuts,Vegetarian,Breakfast,American,Spicy,2450,87,207,71,1,Accepted,No,Improved
+user_150,64,Male,Diabetes,Lactose,Vegan,Lunch,Mexican,Fried,2064,45,104,71,3,Rejected,Yes,Improved
+user_151,30,Male,Heart Disease,Lactose,Keto,Breakfast,Mexican,None,2815,95,179,36,2,Accepted,Yes,Improved
+user_152,62,Other,Diabetes,Lactose,Omnivore,Lunch,Indian,Spicy,1585,67,299,37,3,Accepted,Yes,No Change
+user_153,35,Male,Hypertension,Gluten,Vegetarian,Dinner,Mexican,None,2129,61,170,34,2,Accepted,Yes,Improved
+user_154,54,Male,Hypertension,Lactose,Vegetarian,Dinner,American,Spicy,2476,105,238,46,1,Accepted,No,Improved
+user_155,43,Male,None,Gluten,Omnivore,Breakfast,Mexican,None,1931,107,153,95,3,Accepted,Yes,No Change
+user_156,60,Female,Diabetes,Gluten,Paleo,Dinner,Chinese,Spicy,2359,44,215,51,3,Rejected,Yes,No Change
+user_157,70,Female,Diabetes,Gluten,Keto,Dinner,Indian,None,2647,40,273,79,5,Rejected,Yes,No Change
+user_158,34,Female,Obesity,Gluten,Keto,Breakfast,Italian,Spicy,2818,59,202,67,4,Rejected,Yes,Improved
+user_159,65,Male,Obesity,Gluten,Paleo,Breakfast,Mexican,Spicy,2287,97,256,88,4,Accepted,No,No Change
+user_160,75,Male,Diabetes,None,Vegetarian,Lunch,Indian,None,2269,82,135,51,1,Rejected,Yes,Improved
+user_161,24,Male,None,Lactose,Omnivore,Breakfast,Chinese,Fried,2699,48,263,71,1,Rejected,No,Improved
+user_162,51,Male,Hypertension,Peanuts,Paleo,Breakfast,Indian,Dairy,2648,92,206,63,4,Rejected,Yes,No Change
+user_163,46,Female,Diabetes,Peanuts,Omnivore,Lunch,American,Fried,2796,73,240,89,1,Accepted,Yes,Improved
+user_164,68,Female,None,Gluten,Vegan,Lunch,American,Fried,1529,103,214,64,3,Accepted,Yes,Improved
+user_165,64,Other,Hypertension,Lactose,Vegetarian,Dinner,Chinese,Dairy,2004,73,109,96,5,Rejected,No,Improved
+user_166,68,Male,Heart Disease,None,Paleo,Dinner,American,Dairy,1764,104,162,43,3,Accepted,Yes,Improved
+user_167,68,Other,None,None,Keto,Breakfast,Chinese,Spicy,2798,41,196,69,5,Rejected,Yes,Improved
+user_168,60,Female,Obesity,Gluten,Keto,Lunch,Italian,None,2058,55,127,85,5,Rejected,Yes,No Change
+user_169,58,Male,Diabetes,Gluten,Keto,Lunch,Mexican,Dairy,2290,87,264,49,1,Rejected,Yes,No Change
+user_170,71,Male,None,None,Paleo,Breakfast,Indian,None,2101,41,208,92,2,Rejected,Yes,Improved
+user_171,60,Male,Diabetes,Gluten,Keto,Dinner,Italian,Dairy,2128,42,215,42,2,Accepted,No,No Change
+user_172,35,Other,Obesity,Gluten,Keto,Lunch,Italian,Spicy,1984,72,271,43,4,Rejected,Yes,Improved
+user_173,22,Male,Hypertension,Gluten,Vegan,Breakfast,American,Dairy,1533,115,230,57,2,Rejected,No,Improved
+user_174,20,Other,Obesity,Peanuts,Vegan,Lunch,Mexican,Spicy,2098,55,151,74,4,Rejected,Yes,No Change
+user_175,19,Male,Hypertension,None,Omnivore,Breakfast,American,Dairy,2816,100,291,89,1,Rejected,No,No Change
+user_176,32,Male,Hypertension,Lactose,Paleo,Dinner,Indian,Spicy,2576,104,100,83,1,Accepted,No,Improved
+user_177,55,Female,Obesity,Lactose,Vegan,Dinner,Indian,Dairy,2688,46,144,36,1,Accepted,Yes,Improved
+user_178,28,Female,Diabetes,None,Vegan,Dinner,Indian,None,2964,42,119,72,4,Accepted,No,No Change
+user_179,30,Female,Diabetes,Peanuts,Vegan,Dinner,Indian,None,2706,74,124,99,1,Accepted,Yes,No Change
+user_180,57,Female,Obesity,Lactose,Omnivore,Dinner,Chinese,Fried,2014,75,287,45,4,Rejected,Yes,No Change
+user_181,19,Other,None,None,Omnivore,Lunch,Chinese,None,2825,102,224,79,5,Accepted,Yes,No Change
+user_182,45,Male,Diabetes,None,Paleo,Lunch,Mexican,Fried,2750,54,174,75,5,Rejected,Yes,No Change
+user_183,41,Female,Hypertension,Peanuts,Omnivore,Dinner,Indian,Fried,2142,67,155,57,1,Rejected,No,Improved
+user_184,62,Other,Diabetes,Gluten,Paleo,Dinner,Indian,Fried,2585,71,291,42,1,Accepted,Yes,No Change
+user_185,37,Male,Heart Disease,None,Vegetarian,Dinner,Italian,Fried,2639,48,190,90,2,Accepted,No,No Change
+user_186,46,Other,Diabetes,Lactose,Vegetarian,Dinner,Chinese,None,1514,51,287,33,3,Rejected,No,No Change
+user_187,34,Male,Heart Disease,Gluten,Omnivore,Breakfast,American,None,2285,116,130,90,1,Accepted,Yes,Improved
+user_188,39,Male,Obesity,Lactose,Omnivore,Lunch,American,Dairy,1736,93,263,35,4,Rejected,Yes,Improved
+user_189,23,Male,Heart Disease,Peanuts,Vegetarian,Dinner,Chinese,Spicy,1932,69,117,69,2,Rejected,No,Improved
+user_190,22,Other,None,None,Omnivore,Breakfast,Indian,Spicy,2417,40,218,90,5,Rejected,Yes,Improved
+user_191,20,Female,Diabetes,Peanuts,Paleo,Lunch,Italian,Spicy,1512,101,106,75,4,Accepted,Yes,Improved
+user_192,49,Other,Diabetes,Peanuts,Paleo,Dinner,American,Fried,1925,59,139,68,1,Accepted,Yes,No Change
+user_193,73,Other,None,Gluten,Keto,Dinner,American,Spicy,1579,80,255,76,1,Rejected,Yes,Improved
+user_194,50,Male,Heart Disease,None,Paleo,Lunch,Indian,Spicy,1875,55,151,97,3,Rejected,No,No Change
+user_195,65,Other,Diabetes,None,Paleo,Dinner,Chinese,Fried,2982,92,213,61,5,Accepted,Yes,No Change
+user_196,53,Female,Obesity,None,Vegetarian,Breakfast,Chinese,None,2586,89,184,77,1,Rejected,No,Improved
+user_197,39,Male,None,Lactose,Paleo,Dinner,Mexican,None,1996,81,203,62,4,Accepted,Yes,Improved
+user_198,37,Female,Obesity,None,Keto,Breakfast,American,None,2496,111,187,82,2,Rejected,Yes,No Change
+user_199,59,Male,Heart Disease,None,Vegan,Dinner,American,Dairy,1995,71,247,71,3,Accepted,No,Improved
+user_200,66,Female,Hypertension,Peanuts,Keto,Dinner,American,None,1633,53,170,51,3,Accepted,No,No Change
+user_201,58,Other,Hypertension,Gluten,Omnivore,Lunch,Italian,Spicy,2503,74,163,96,2,Accepted,No,Improved
+user_202,27,Female,Hypertension,Peanuts,Paleo,Breakfast,Indian,Dairy,1703,102,149,82,2,Accepted,Yes,Improved
+user_203,35,Male,Heart Disease,Peanuts,Vegetarian,Breakfast,Indian,Spicy,1903,56,155,77,1,Accepted,No,Improved
+user_204,60,Other,Hypertension,None,Paleo,Lunch,Indian,Spicy,1606,107,139,84,2,Accepted,Yes,No Change
+user_205,53,Other,Diabetes,None,Vegetarian,Dinner,Chinese,Fried,2949,69,176,47,5,Accepted,Yes,No Change
+user_206,36,Other,Obesity,Lactose,Omnivore,Dinner,Chinese,None,2192,65,208,85,1,Rejected,No,Improved
+user_207,56,Male,Diabetes,Gluten,Vegan,Lunch,Indian,Fried,2088,113,130,40,4,Rejected,No,Improved
+user_208,39,Male,Heart Disease,None,Omnivore,Dinner,Mexican,Dairy,2340,64,203,30,5,Rejected,No,No Change
+user_209,31,Male,None,Lactose,Keto,Lunch,American,Spicy,1529,84,156,55,2,Rejected,No,No Change
+user_210,45,Male,Diabetes,Lactose,Omnivore,Lunch,Mexican,Fried,1977,82,254,60,5,Accepted,No,Improved
+user_211,70,Male,Hypertension,Peanuts,Vegan,Lunch,Mexican,Spicy,2855,114,208,60,4,Accepted,Yes,No Change
+user_212,65,Male,Hypertension,Peanuts,Vegetarian,Dinner,Italian,Dairy,2810,58,288,97,1,Rejected,Yes,No Change
+user_213,22,Male,None,Gluten,Vegan,Breakfast,Italian,Dairy,2965,84,187,36,4,Accepted,No,Improved
+user_214,31,Other,Heart Disease,Lactose,Omnivore,Breakfast,Mexican,Fried,1816,76,232,42,3,Accepted,No,Improved
+user_215,64,Other,None,Gluten,Omnivore,Dinner,Mexican,Fried,1906,96,142,93,2,Rejected,No,No Change
+user_216,48,Female,Heart Disease,Peanuts,Omnivore,Breakfast,Italian,Fried,2718,55,176,59,2,Accepted,No,No Change
+user_217,74,Other,Obesity,Lactose,Paleo,Breakfast,Italian,None,2001,59,267,43,3,Rejected,Yes,Improved
+user_218,54,Female,Obesity,None,Paleo,Lunch,Italian,Dairy,2628,104,230,82,3,Accepted,Yes,Improved
+user_219,64,Male,Heart Disease,None,Vegetarian,Lunch,Mexican,Dairy,1973,71,148,34,1,Rejected,Yes,Improved
+user_220,28,Female,Obesity,Lactose,Keto,Breakfast,American,None,2995,67,176,42,3,Accepted,No,Improved
+user_221,58,Female,Obesity,Lactose,Vegan,Breakfast,Indian,None,2079,116,105,35,2,Rejected,No,Improved
+user_222,60,Other,None,None,Omnivore,Lunch,Indian,Dairy,2436,72,162,82,5,Accepted,Yes,Improved
+user_223,39,Female,Diabetes,Lactose,Vegetarian,Dinner,Chinese,Dairy,1510,77,136,63,2,Accepted,Yes,No Change
+user_224,66,Male,Diabetes,None,Keto,Breakfast,Mexican,Dairy,2418,116,112,42,2,Accepted,Yes,No Change
+user_225,34,Male,Heart Disease,None,Paleo,Breakfast,American,Dairy,2158,53,199,95,4,Rejected,No,No Change
+user_226,70,Female,Diabetes,None,Paleo,Dinner,Chinese,Spicy,2413,77,290,81,5,Accepted,No,No Change
+user_227,43,Female,Obesity,None,Omnivore,Lunch,American,Dairy,1981,78,154,70,5,Accepted,No,No Change
+user_228,70,Other,None,None,Paleo,Breakfast,Italian,None,2429,88,291,53,5,Rejected,Yes,No Change
+user_229,75,Other,Obesity,Gluten,Keto,Lunch,Italian,Spicy,2210,117,266,40,4,Accepted,Yes,No Change
+user_230,41,Male,None,None,Vegan,Breakfast,American,Fried,2743,110,272,53,3,Rejected,Yes,No Change
+user_231,54,Female,None,Peanuts,Omnivore,Breakfast,Indian,Dairy,2882,107,208,89,3,Rejected,No,Improved
+user_232,73,Other,Hypertension,None,Vegan,Dinner,Indian,Dairy,2914,88,121,71,2,Rejected,No,No Change
+user_233,37,Female,Obesity,Lactose,Paleo,Lunch,Mexican,Dairy,1976,101,270,94,1,Accepted,Yes,No Change
+user_234,59,Female,Diabetes,Lactose,Keto,Breakfast,Mexican,Spicy,2061,83,218,74,3,Accepted,Yes,Improved
+user_235,21,Female,Hypertension,Peanuts,Omnivore,Dinner,Chinese,Fried,1565,42,204,40,1,Accepted,Yes,Improved
+user_236,69,Other,Obesity,Lactose,Paleo,Breakfast,Chinese,Fried,2568,83,169,51,3,Accepted,No,No Change
+user_237,73,Female,Hypertension,None,Vegetarian,Dinner,Chinese,Spicy,2125,63,277,42,2,Rejected,Yes,Improved
+user_238,43,Female,Diabetes,Peanuts,Keto,Dinner,American,Dairy,2170,46,167,57,1,Accepted,No,Improved
+user_239,28,Female,Heart Disease,None,Vegan,Dinner,Mexican,Spicy,1805,56,114,67,1,Rejected,No,No Change
+user_240,55,Other,Diabetes,None,Vegetarian,Breakfast,Mexican,Spicy,2440,92,229,59,2,Accepted,No,Improved
+user_241,70,Female,Heart Disease,None,Omnivore,Dinner,Italian,Fried,1743,78,183,34,2,Rejected,Yes,No Change
+user_242,48,Female,Diabetes,Peanuts,Vegetarian,Breakfast,Mexican,Fried,2666,77,115,62,5,Rejected,Yes,No Change
+user_243,46,Other,Heart Disease,Lactose,Omnivore,Breakfast,Mexican,Dairy,2324,88,292,95,1,Rejected,Yes,No Change
+user_244,58,Male,Heart Disease,Gluten,Vegetarian,Dinner,Chinese,Spicy,2412,62,111,88,5,Accepted,Yes,Improved
+user_245,68,Male,None,Peanuts,Keto,Dinner,Indian,Dairy,2297,110,263,91,1,Rejected,No,No Change
+user_246,63,Male,Heart Disease,Gluten,Keto,Lunch,American,Dairy,1988,66,274,45,3,Rejected,No,Improved
+user_247,71,Other,Diabetes,None,Vegan,Lunch,Italian,Spicy,1759,56,284,52,5,Rejected,No,Improved
+user_248,70,Other,Hypertension,Peanuts,Paleo,Dinner,Italian,Fried,2456,111,165,89,2,Rejected,Yes,No Change
+user_249,58,Other,Hypertension,Lactose,Vegetarian,Dinner,Mexican,Spicy,2890,114,119,32,2,Rejected,No,Improved
+user_250,44,Female,None,Lactose,Vegetarian,Breakfast,Chinese,Spicy,1988,71,228,46,2,Rejected,No,Improved
+user_251,19,Male,Hypertension,Peanuts,Keto,Lunch,Mexican,Fried,1544,64,114,97,2,Accepted,No,Improved
+user_252,57,Female,None,Lactose,Keto,Lunch,American,None,1748,85,196,92,2,Accepted,No,Improved
+user_253,18,Male,Hypertension,None,Paleo,Dinner,American,Spicy,2153,74,265,64,3,Accepted,Yes,No Change
+user_254,25,Male,Heart Disease,None,Vegetarian,Breakfast,Mexican,Spicy,1840,56,282,85,2,Rejected,No,No Change
+user_255,37,Male,Diabetes,Gluten,Vegetarian,Breakfast,Mexican,Spicy,1564,53,233,71,1,Rejected,No,Improved
+user_256,64,Female,None,None,Omnivore,Breakfast,Italian,Dairy,1614,107,213,64,2,Rejected,No,Improved
+user_257,60,Female,Heart Disease,Peanuts,Vegetarian,Dinner,American,Fried,2460,120,269,81,1,Accepted,No,No Change
+user_258,39,Female,Obesity,None,Keto,Dinner,Mexican,Fried,2853,54,113,77,1,Accepted,No,No Change
+user_259,66,Other,None,Gluten,Keto,Breakfast,Mexican,Fried,1984,94,179,75,5,Accepted,No,Improved
+user_260,58,Male,None,None,Omnivore,Lunch,Indian,Spicy,2234,108,298,78,4,Rejected,No,Improved
+user_261,19,Male,Hypertension,Peanuts,Paleo,Breakfast,Italian,None,1792,50,273,45,1,Rejected,No,Improved
+user_262,66,Male,Heart Disease,None,Omnivore,Dinner,Chinese,Dairy,2976,104,221,62,5,Rejected,Yes,No Change
+user_263,43,Female,Hypertension,Gluten,Vegan,Breakfast,Italian,Dairy,2423,118,252,63,4,Rejected,Yes,No Change
+user_264,57,Female,Diabetes,Lactose,Omnivore,Lunch,Mexican,Spicy,2074,100,237,84,2,Accepted,No,Improved
+user_265,68,Female,None,Lactose,Vegetarian,Breakfast,Chinese,Spicy,2957,79,109,65,3,Rejected,Yes,No Change
+user_266,42,Male,Hypertension,Gluten,Paleo,Lunch,American,Spicy,1763,85,171,53,5,Accepted,Yes,Improved
+user_267,52,Other,Hypertension,Peanuts,Keto,Lunch,Chinese,Spicy,2198,78,243,84,5,Rejected,No,Improved
+user_268,58,Male,Obesity,None,Omnivore,Dinner,Italian,Spicy,2618,76,198,85,1,Rejected,No,No Change
+user_269,65,Other,Diabetes,Peanuts,Omnivore,Dinner,Indian,Spicy,2389,108,217,37,3,Accepted,Yes,No Change
+user_270,18,Other,Heart Disease,Peanuts,Keto,Lunch,Chinese,None,2287,97,121,70,4,Accepted,No,No Change
+user_271,58,Other,Diabetes,Peanuts,Vegetarian,Breakfast,American,Dairy,2871,44,243,44,2,Rejected,Yes,No Change
+user_272,53,Female,Diabetes,Peanuts,Keto,Breakfast,Indian,Dairy,1876,72,273,88,2,Accepted,Yes,Improved
+user_273,23,Male,Diabetes,None,Vegetarian,Lunch,Chinese,Fried,1778,53,129,79,3,Accepted,No,Improved
+user_274,56,Male,Diabetes,Lactose,Vegan,Breakfast,American,Dairy,3000,59,158,86,3,Accepted,Yes,Improved
+user_275,53,Male,Obesity,Lactose,Paleo,Lunch,American,None,1866,96,267,63,1,Accepted,Yes,Improved
+user_276,52,Other,None,Peanuts,Paleo,Breakfast,Chinese,Spicy,1969,105,240,32,3,Rejected,Yes,Improved
+user_277,73,Female,Hypertension,Gluten,Vegan,Breakfast,Italian,Spicy,2914,107,123,86,3,Accepted,Yes,No Change
+user_278,62,Other,Obesity,Peanuts,Vegetarian,Dinner,Mexican,Spicy,2262,72,135,51,1,Rejected,Yes,Improved
+user_279,18,Female,Diabetes,Peanuts,Paleo,Breakfast,Italian,Spicy,2110,55,188,87,3,Accepted,No,Improved
+user_280,26,Female,Hypertension,Lactose,Paleo,Breakfast,American,None,1591,111,202,79,1,Accepted,No,No Change
+user_281,61,Male,Diabetes,None,Keto,Dinner,American,Spicy,2000,82,143,73,4,Accepted,No,No Change
+user_282,22,Female,Diabetes,Gluten,Vegan,Lunch,Italian,Dairy,1801,42,229,32,1,Accepted,No,Improved
+user_283,24,Other,Heart Disease,Peanuts,Vegan,Dinner,Italian,Dairy,2512,118,275,33,1,Accepted,No,No Change
+user_284,64,Female,Hypertension,None,Omnivore,Breakfast,Mexican,Fried,2612,119,118,100,4,Rejected,No,Improved
+user_285,74,Female,None,Lactose,Vegetarian,Dinner,Italian,Fried,2801,46,221,61,4,Rejected,Yes,Improved
+user_286,44,Male,Obesity,Lactose,Vegetarian,Lunch,Indian,None,2685,40,125,97,4,Accepted,Yes,Improved
+user_287,51,Male,Diabetes,Lactose,Omnivore,Lunch,American,None,2823,92,194,82,4,Accepted,No,Improved
+user_288,49,Female,Obesity,Lactose,Vegan,Breakfast,Indian,Dairy,1902,111,137,33,1,Accepted,No,No Change
+user_289,73,Female,Obesity,Peanuts,Vegan,Lunch,Indian,Fried,2667,83,211,54,3,Accepted,Yes,Improved
+user_290,33,Female,Heart Disease,Lactose,Vegetarian,Dinner,Indian,Spicy,1977,48,123,80,4,Rejected,Yes,Improved
+user_291,26,Other,Diabetes,Peanuts,Vegetarian,Breakfast,Mexican,None,1533,88,237,76,4,Accepted,No,Improved
+user_292,26,Female,Obesity,Lactose,Paleo,Dinner,Indian,Spicy,2397,87,166,40,2,Rejected,No,No Change
+user_293,25,Male,None,Gluten,Vegan,Lunch,Mexican,None,2803,120,170,83,3,Accepted,Yes,Improved
+user_294,26,Other,Heart Disease,Peanuts,Omnivore,Breakfast,Italian,None,2584,74,143,31,5,Rejected,Yes,No Change
+user_295,27,Other,Obesity,Lactose,Keto,Breakfast,Chinese,None,2268,72,168,59,4,Rejected,Yes,No Change
+user_296,65,Female,Obesity,Gluten,Omnivore,Lunch,American,None,2393,101,262,33,3,Rejected,Yes,No Change
+user_297,54,Male,Obesity,Gluten,Vegetarian,Breakfast,Chinese,None,2669,92,243,52,2,Rejected,No,Improved
+user_298,71,Male,Diabetes,Lactose,Paleo,Dinner,American,None,1702,118,118,59,2,Rejected,No,Improved
+user_299,25,Female,Hypertension,Gluten,Keto,Breakfast,American,None,2601,92,191,81,5,Rejected,Yes,Improved
+user_300,61,Female,None,Gluten,Keto,Dinner,Indian,Spicy,2920,114,182,80,3,Accepted,Yes,Improved
+user_301,48,Male,Hypertension,None,Keto,Dinner,Mexican,None,2123,104,258,42,3,Accepted,No,Improved
+user_302,26,Male,Diabetes,Lactose,Vegan,Lunch,Mexican,Fried,2873,51,272,63,4,Rejected,Yes,Improved
+user_303,21,Other,Hypertension,Gluten,Omnivore,Lunch,Mexican,Fried,2970,99,122,51,4,Accepted,No,No Change
+user_304,40,Male,Heart Disease,Peanuts,Vegetarian,Lunch,Indian,Dairy,2687,72,241,40,1,Rejected,Yes,No Change
+user_305,73,Other,Hypertension,Lactose,Vegetarian,Breakfast,Italian,Fried,2210,75,130,30,4,Rejected,Yes,Improved
+user_306,47,Female,None,Peanuts,Paleo,Dinner,Mexican,Spicy,1935,53,108,68,5,Accepted,No,Improved
+user_307,43,Male,Heart Disease,Gluten,Paleo,Dinner,Italian,None,2207,88,289,45,5,Rejected,No,No Change
+user_308,73,Male,Heart Disease,None,Vegan,Lunch,Italian,Spicy,1830,86,121,39,4,Accepted,Yes,Improved
+user_309,29,Female,Obesity,Peanuts,Vegetarian,Breakfast,Chinese,None,2975,106,252,35,5,Accepted,Yes,Improved
+user_310,27,Other,Obesity,Peanuts,Omnivore,Dinner,Indian,Fried,1796,77,106,91,2,Accepted,No,Improved
+user_311,69,Other,Heart Disease,Gluten,Omnivore,Lunch,Indian,Fried,1577,85,265,98,4,Rejected,No,Improved
+user_312,48,Female,None,Peanuts,Vegetarian,Lunch,American,Spicy,1539,58,249,44,2,Rejected,Yes,Improved
+user_313,65,Female,None,None,Vegan,Breakfast,Chinese,Dairy,2839,61,274,84,3,Rejected,No,No Change
+user_314,49,Male,Diabetes,Gluten,Vegan,Lunch,Indian,Spicy,1819,88,192,58,3,Rejected,No,No Change
+user_315,61,Female,None,Lactose,Keto,Breakfast,Chinese,Dairy,2632,44,181,87,4,Accepted,Yes,No Change
+user_316,21,Female,None,Lactose,Vegetarian,Breakfast,Italian,None,2147,115,126,48,2,Rejected,Yes,No Change
+user_317,66,Male,Hypertension,None,Vegan,Breakfast,Chinese,Spicy,2369,67,255,49,3,Rejected,Yes,No Change
+user_318,61,Female,None,Peanuts,Vegetarian,Breakfast,Chinese,Dairy,1821,120,294,91,1,Accepted,Yes,Improved
+user_319,50,Female,None,Lactose,Vegetarian,Dinner,Chinese,Dairy,2444,85,160,96,2,Accepted,Yes,Improved
+user_320,61,Male,Obesity,Gluten,Omnivore,Breakfast,Indian,Spicy,2518,43,280,76,3,Rejected,Yes,No Change
+user_321,21,Other,Obesity,Gluten,Paleo,Breakfast,Chinese,Fried,1727,61,245,51,2,Accepted,No,Improved
+user_322,41,Other,Heart Disease,Gluten,Omnivore,Dinner,Mexican,Dairy,2562,102,198,31,5,Rejected,Yes,No Change
+user_323,31,Female,Heart Disease,Lactose,Paleo,Dinner,American,Fried,2735,47,122,46,5,Accepted,Yes,Improved
+user_324,18,Other,None,Lactose,Keto,Dinner,Chinese,Spicy,2666,94,169,62,4,Rejected,Yes,No Change
+user_325,64,Other,None,None,Vegetarian,Breakfast,American,Fried,2748,116,180,81,2,Accepted,Yes,No Change
+user_326,32,Other,Heart Disease,Gluten,Vegan,Dinner,Italian,None,2165,120,176,52,1,Accepted,No,No Change
+user_327,50,Male,Hypertension,Gluten,Keto,Breakfast,Chinese,Spicy,2521,45,211,66,3,Accepted,Yes,No Change
+user_328,70,Male,Diabetes,None,Vegetarian,Lunch,Chinese,Fried,2397,42,189,91,1,Rejected,No,No Change
+user_329,57,Female,Heart Disease,None,Omnivore,Lunch,American,Dairy,2005,98,180,61,4,Accepted,No,No Change
+user_330,70,Female,Diabetes,Gluten,Omnivore,Lunch,Indian,None,2448,81,125,39,2,Accepted,No,No Change
+user_331,41,Male,Diabetes,Gluten,Paleo,Breakfast,Mexican,Fried,2474,49,249,85,3,Accepted,Yes,No Change
+user_332,50,Male,Hypertension,Peanuts,Paleo,Lunch,Italian,Spicy,1598,119,104,56,4,Accepted,No,No Change
+user_333,28,Female,Heart Disease,Gluten,Keto,Breakfast,Chinese,Dairy,2709,80,263,55,5,Rejected,No,Improved
+user_334,44,Male,Obesity,Peanuts,Vegan,Lunch,American,None,1753,119,142,99,3,Accepted,No,No Change
+user_335,61,Female,Heart Disease,Lactose,Omnivore,Dinner,Mexican,Spicy,2654,84,274,95,2,Rejected,No,Improved
+user_336,18,Female,Obesity,Lactose,Vegetarian,Dinner,American,Spicy,2777,61,294,48,3,Accepted,Yes,No Change
+user_337,19,Other,Diabetes,Gluten,Vegetarian,Dinner,American,Spicy,2905,81,205,69,5,Accepted,Yes,No Change
+user_338,71,Other,None,Peanuts,Omnivore,Lunch,American,Spicy,2824,92,208,81,4,Accepted,No,No Change
+user_339,53,Female,Diabetes,Lactose,Omnivore,Lunch,Mexican,Spicy,2021,88,133,37,5,Rejected,No,Improved
+user_340,47,Male,Hypertension,Gluten,Keto,Dinner,Chinese,Spicy,2181,54,135,71,5,Accepted,No,No Change
+user_341,23,Male,Obesity,Gluten,Omnivore,Breakfast,Indian,Fried,1765,40,265,50,3,Rejected,No,No Change
+user_342,66,Other,Heart Disease,Peanuts,Vegan,Breakfast,Chinese,Fried,2675,109,170,48,3,Accepted,Yes,Improved
+user_343,26,Male,Hypertension,Lactose,Vegan,Breakfast,Chinese,Spicy,2992,101,144,85,4,Accepted,No,Improved
+user_344,38,Male,Obesity,Lactose,Keto,Dinner,American,None,2068,55,268,88,5,Rejected,Yes,No Change
+user_345,21,Female,Heart Disease,Lactose,Keto,Dinner,Chinese,Fried,2554,106,289,56,2,Accepted,No,No Change
+user_346,23,Male,Hypertension,Lactose,Omnivore,Lunch,Mexican,Fried,2596,117,169,59,4,Accepted,No,No Change
+user_347,20,Male,Hypertension,Gluten,Paleo,Lunch,Indian,None,1575,93,190,67,2,Accepted,No,Improved
+user_348,48,Female,Hypertension,Gluten,Vegetarian,Lunch,Indian,Spicy,1742,66,240,35,3,Accepted,Yes,No Change
+user_349,24,Male,Heart Disease,Peanuts,Vegan,Breakfast,Indian,None,1649,82,278,53,1,Rejected,No,Improved
+user_350,45,Male,Diabetes,Lactose,Vegetarian,Breakfast,Mexican,Dairy,2976,57,175,75,2,Rejected,No,Improved
+user_351,21,Male,None,Peanuts,Omnivore,Dinner,Indian,Fried,2402,107,153,91,5,Accepted,Yes,No Change
+user_352,72,Other,None,Lactose,Paleo,Lunch,Italian,Dairy,2152,96,142,95,1,Rejected,Yes,Improved
+user_353,48,Female,Heart Disease,Lactose,Keto,Dinner,Italian,Dairy,1772,86,111,34,5,Accepted,Yes,No Change
+user_354,74,Other,None,Lactose,Omnivore,Breakfast,American,Fried,1767,107,252,56,4,Rejected,No,Improved
+user_355,38,Male,Obesity,Peanuts,Omnivore,Breakfast,Indian,Spicy,2451,116,135,68,4,Rejected,No,Improved
+user_356,72,Male,Hypertension,Gluten,Paleo,Lunch,Mexican,Fried,1859,48,175,42,3,Rejected,No,Improved
+user_357,67,Female,Heart Disease,Gluten,Paleo,Dinner,Indian,Spicy,1726,109,290,67,5,Accepted,Yes,No Change
+user_358,55,Male,Heart Disease,Peanuts,Vegetarian,Breakfast,Mexican,Fried,2385,75,213,79,1,Rejected,No,Improved
+user_359,21,Male,Heart Disease,Peanuts,Vegan,Lunch,American,None,1874,92,114,49,1,Rejected,No,No Change
+user_360,61,Female,Diabetes,Lactose,Paleo,Breakfast,Indian,None,1898,114,162,56,5,Accepted,Yes,No Change
+user_361,51,Male,Heart Disease,Peanuts,Omnivore,Lunch,Indian,Fried,1536,78,262,50,2,Rejected,Yes,No Change
+user_362,23,Male,None,Lactose,Keto,Breakfast,American,None,2022,112,155,53,5,Accepted,No,No Change
+user_363,31,Female,Heart Disease,Gluten,Paleo,Breakfast,Chinese,None,2680,103,112,72,3,Accepted,Yes,No Change
+user_364,34,Male,None,Gluten,Vegan,Lunch,Indian,Fried,2981,118,233,98,1,Accepted,No,No Change
+user_365,70,Other,None,Lactose,Keto,Dinner,American,Fried,2124,103,119,100,2,Rejected,Yes,Improved
+user_366,45,Female,Heart Disease,Lactose,Vegan,Breakfast,Mexican,None,2564,78,282,57,4,Rejected,Yes,Improved
+user_367,65,Other,Obesity,None,Paleo,Breakfast,American,Spicy,2062,56,203,71,1,Accepted,No,No Change
+user_368,35,Female,Diabetes,None,Vegetarian,Dinner,Chinese,None,1918,92,175,35,2,Accepted,Yes,Improved
+user_369,75,Male,Hypertension,Lactose,Vegetarian,Dinner,Mexican,Dairy,2993,110,202,63,4,Accepted,No,Improved
+user_370,36,Female,Hypertension,Gluten,Omnivore,Dinner,Chinese,Spicy,1899,49,152,51,1,Accepted,No,No Change
+user_371,44,Other,None,Peanuts,Vegan,Lunch,Chinese,Dairy,2067,71,153,80,4,Accepted,No,No Change
+user_372,46,Male,Obesity,Peanuts,Vegan,Breakfast,Italian,Spicy,2973,103,179,63,3,Accepted,Yes,No Change
+user_373,43,Male,Diabetes,None,Omnivore,Breakfast,Italian,Spicy,1686,113,153,33,1,Accepted,Yes,Improved
+user_374,38,Other,Diabetes,Peanuts,Paleo,Dinner,Chinese,Fried,2357,43,212,75,1,Accepted,No,Improved
+user_375,27,Female,Obesity,Peanuts,Paleo,Dinner,Indian,None,2100,54,156,77,4,Rejected,Yes,No Change
+user_376,19,Female,Hypertension,None,Paleo,Dinner,Mexican,None,2148,59,277,43,4,Accepted,No,Improved
+user_377,25,Female,Heart Disease,None,Vegetarian,Lunch,Mexican,None,1647,46,286,69,2,Rejected,Yes,No Change
+user_378,45,Female,Diabetes,None,Vegan,Dinner,Indian,Fried,3000,54,240,83,3,Accepted,Yes,Improved
+user_379,46,Female,Heart Disease,Gluten,Keto,Lunch,Italian,None,2905,114,166,74,5,Accepted,Yes,Improved
+user_380,54,Male,Obesity,Gluten,Keto,Breakfast,Chinese,None,2611,76,213,92,3,Rejected,Yes,Improved
+user_381,27,Male,Diabetes,Gluten,Vegetarian,Breakfast,Mexican,Dairy,1943,113,254,73,1,Rejected,No,Improved
+user_382,28,Female,Hypertension,Peanuts,Vegetarian,Lunch,Italian,Fried,2560,110,183,58,5,Rejected,Yes,No Change
+user_383,68,Other,Diabetes,Lactose,Keto,Breakfast,Indian,Dairy,2776,88,116,58,2,Rejected,No,Improved
+user_384,35,Male,Obesity,Lactose,Vegan,Lunch,American,Fried,1866,56,240,36,2,Rejected,No,Improved
+user_385,63,Male,None,None,Keto,Lunch,Chinese,Dairy,2539,62,104,67,1,Rejected,Yes,Improved
+user_386,38,Male,Obesity,Gluten,Vegetarian,Dinner,Indian,Spicy,1777,53,246,56,1,Rejected,Yes,Improved
+user_387,49,Female,Hypertension,Gluten,Vegetarian,Breakfast,American,Spicy,2872,103,259,38,2,Rejected,Yes,Improved
+user_388,67,Female,Diabetes,Peanuts,Vegan,Breakfast,Chinese,None,2691,90,232,79,3,Accepted,Yes,No Change
+user_389,19,Male,Obesity,Peanuts,Vegetarian,Lunch,Italian,Fried,1650,64,251,63,4,Rejected,Yes,No Change
+user_390,72,Male,Hypertension,Lactose,Vegetarian,Breakfast,American,Dairy,1686,49,118,72,3,Rejected,No,No Change
+user_391,64,Female,Obesity,Peanuts,Keto,Breakfast,Mexican,None,2823,83,176,54,5,Rejected,Yes,Improved
+user_392,75,Male,Diabetes,None,Vegan,Breakfast,Italian,Fried,2375,69,243,66,4,Rejected,No,Improved
+user_393,43,Male,Heart Disease,Peanuts,Vegan,Breakfast,American,Spicy,2475,88,104,31,1,Rejected,No,Improved
+user_394,40,Female,Heart Disease,Lactose,Omnivore,Breakfast,Mexican,Fried,2572,88,106,63,4,Rejected,Yes,Improved
+user_395,27,Other,Hypertension,Peanuts,Vegan,Dinner,Italian,Dairy,2556,50,244,82,5,Accepted,No,No Change
+user_396,38,Other,Diabetes,Gluten,Keto,Lunch,American,Spicy,2541,82,254,49,1,Accepted,Yes,No Change
+user_397,67,Female,Obesity,Peanuts,Paleo,Dinner,Chinese,Spicy,2106,65,260,53,4,Accepted,Yes,Improved
+user_398,62,Other,None,Lactose,Vegetarian,Dinner,Indian,None,1732,41,141,50,4,Accepted,No,No Change
+user_399,55,Female,Hypertension,Lactose,Keto,Dinner,American,Dairy,2878,103,181,91,5,Rejected,Yes,No Change
+user_400,46,Other,Hypertension,Gluten,Vegetarian,Dinner,Chinese,None,2734,42,236,93,5,Rejected,No,Improved
+user_401,46,Other,Heart Disease,Peanuts,Vegetarian,Lunch,Mexican,Fried,2964,97,256,77,5,Accepted,Yes,No Change
+user_402,55,Male,Diabetes,Peanuts,Keto,Dinner,Indian,Fried,1523,56,139,50,4,Accepted,Yes,Improved
+user_403,66,Male,Hypertension,Gluten,Paleo,Breakfast,Indian,None,2686,86,282,64,2,Rejected,Yes,Improved
+user_404,28,Male,Obesity,None,Omnivore,Breakfast,American,Spicy,2176,57,252,42,1,Accepted,Yes,No Change
+user_405,29,Female,Diabetes,Gluten,Keto,Lunch,American,None,1790,100,175,76,3,Rejected,Yes,Improved
+user_406,70,Male,Diabetes,Gluten,Paleo,Lunch,Indian,Dairy,2360,41,252,85,1,Accepted,Yes,Improved
+user_407,21,Other,Hypertension,Gluten,Keto,Lunch,Italian,None,2891,48,216,76,2,Accepted,Yes,No Change
+user_408,27,Female,Diabetes,None,Paleo,Breakfast,Indian,None,2356,114,279,78,2,Rejected,No,Improved
+user_409,27,Female,Heart Disease,Peanuts,Vegetarian,Breakfast,Chinese,None,2843,47,233,100,4,Rejected,Yes,Improved
+user_410,42,Female,Obesity,Gluten,Vegan,Lunch,Mexican,Spicy,2749,83,229,83,5,Rejected,No,No Change
+user_411,40,Male,Heart Disease,None,Vegan,Breakfast,Mexican,Dairy,2471,61,262,88,5,Accepted,No,No Change
+user_412,31,Other,None,None,Paleo,Breakfast,Italian,Fried,2135,49,280,92,2,Accepted,Yes,Improved
+user_413,65,Other,Diabetes,Gluten,Keto,Dinner,Mexican,None,2546,76,100,31,1,Rejected,Yes,No Change
+user_414,53,Female,None,None,Keto,Dinner,Chinese,None,1578,79,234,35,5,Rejected,Yes,No Change
+user_415,42,Female,Heart Disease,Peanuts,Omnivore,Lunch,Italian,Spicy,2064,76,121,79,1,Rejected,Yes,Improved
+user_416,62,Female,Obesity,Peanuts,Paleo,Breakfast,Mexican,Fried,2230,90,225,76,4,Rejected,Yes,Improved
+user_417,71,Other,Heart Disease,Lactose,Paleo,Dinner,American,Dairy,2522,107,130,31,2,Rejected,Yes,No Change
+user_418,61,Male,Obesity,Lactose,Vegan,Dinner,Indian,Dairy,2405,64,240,44,5,Rejected,Yes,No Change
+user_419,42,Male,Diabetes,Peanuts,Keto,Breakfast,Indian,Dairy,2286,112,161,91,3,Accepted,Yes,Improved
+user_420,57,Male,Diabetes,Lactose,Paleo,Breakfast,American,None,2742,78,256,71,1,Rejected,No,No Change
+user_421,52,Female,Obesity,None,Keto,Dinner,American,None,1662,118,233,67,5,Accepted,Yes,No Change
+user_422,33,Female,Hypertension,Lactose,Keto,Dinner,American,Dairy,2687,81,114,45,2,Rejected,No,Improved
+user_423,39,Other,Heart Disease,Lactose,Omnivore,Breakfast,Italian,Dairy,2407,104,154,54,4,Rejected,No,No Change
+user_424,20,Female,Diabetes,Lactose,Vegetarian,Breakfast,American,Spicy,1553,43,174,49,4,Rejected,No,Improved
+user_425,61,Female,Hypertension,Lactose,Paleo,Lunch,American,Fried,2004,45,225,49,4,Rejected,No,No Change
+user_426,75,Other,Diabetes,Peanuts,Omnivore,Dinner,Mexican,Spicy,1982,68,214,69,2,Accepted,No,No Change
+user_427,61,Male,Hypertension,Lactose,Omnivore,Lunch,Chinese,Dairy,2971,87,157,96,5,Rejected,No,Improved
+user_428,37,Male,Obesity,None,Omnivore,Lunch,Mexican,None,2168,88,189,60,5,Accepted,No,No Change
+user_429,51,Other,Hypertension,Lactose,Keto,Breakfast,Chinese,Fried,2530,72,127,87,5,Rejected,No,No Change
+user_430,63,Female,None,Peanuts,Vegan,Lunch,Indian,None,2476,54,178,75,3,Rejected,No,Improved
+user_431,69,Female,None,Peanuts,Vegetarian,Lunch,Mexican,None,2945,58,202,86,1,Rejected,Yes,Improved
+user_432,61,Male,None,Gluten,Omnivore,Dinner,American,Spicy,2929,61,146,98,1,Rejected,No,No Change
+user_433,19,Male,Obesity,Gluten,Keto,Dinner,American,Spicy,2453,54,142,91,3,Accepted,Yes,No Change
+user_434,58,Other,Diabetes,None,Vegetarian,Lunch,Italian,None,2553,65,255,76,5,Accepted,Yes,No Change
+user_435,26,Male,None,Peanuts,Keto,Lunch,Chinese,Spicy,2619,71,207,94,1,Rejected,No,No Change
+user_436,32,Other,Obesity,Lactose,Omnivore,Lunch,Mexican,Fried,2153,75,217,51,5,Accepted,Yes,No Change
+user_437,56,Other,Diabetes,Lactose,Paleo,Dinner,Mexican,None,2688,73,155,65,1,Rejected,Yes,No Change
+user_438,53,Male,Heart Disease,Peanuts,Vegetarian,Dinner,Italian,Fried,2019,85,227,90,1,Accepted,No,Improved
+user_439,66,Female,Diabetes,Lactose,Vegan,Lunch,Italian,Dairy,2713,56,266,72,3,Accepted,No,No Change
+user_440,25,Other,Heart Disease,Lactose,Keto,Breakfast,Italian,Spicy,1708,116,192,36,2,Rejected,No,No Change
+user_441,37,Female,Hypertension,Peanuts,Keto,Breakfast,Chinese,Dairy,2951,41,265,70,2,Accepted,Yes,Improved
+user_442,58,Female,Hypertension,None,Paleo,Breakfast,American,Spicy,2236,80,221,57,4,Rejected,No,Improved
+user_443,21,Female,None,Peanuts,Vegetarian,Dinner,American,Spicy,1829,72,255,79,3,Rejected,No,No Change
+user_444,35,Female,None,None,Omnivore,Breakfast,Chinese,Dairy,2808,99,102,90,1,Rejected,Yes,No Change
+user_445,38,Male,None,Peanuts,Paleo,Dinner,American,Dairy,1729,109,246,70,3,Rejected,No,Improved
+user_446,41,Female,Heart Disease,Gluten,Vegetarian,Lunch,Indian,None,2527,95,243,37,4,Accepted,No,Improved
+user_447,18,Male,Obesity,Gluten,Paleo,Dinner,Italian,Fried,2176,95,243,98,1,Rejected,No,No Change
+user_448,25,Female,Hypertension,None,Keto,Dinner,Chinese,Dairy,2628,65,226,46,1,Rejected,No,Improved
+user_449,70,Male,None,Lactose,Keto,Lunch,Mexican,Dairy,2885,54,151,75,1,Rejected,No,Improved
+user_450,32,Female,Heart Disease,Lactose,Omnivore,Breakfast,Indian,Dairy,2908,79,251,30,3,Rejected,Yes,Improved
+user_451,18,Male,Diabetes,Lactose,Keto,Lunch,Chinese,Spicy,2087,101,112,100,3,Accepted,No,No Change
+user_452,31,Male,Diabetes,Peanuts,Omnivore,Lunch,Mexican,Fried,2093,76,169,40,5,Rejected,Yes,Improved
+user_453,24,Other,Diabetes,Lactose,Vegetarian,Breakfast,Indian,Spicy,2447,99,189,43,5,Rejected,No,No Change
+user_454,30,Female,Diabetes,Gluten,Vegetarian,Dinner,Chinese,Dairy,2013,104,170,82,3,Rejected,No,No Change
+user_455,25,Male,Obesity,Gluten,Vegetarian,Lunch,American,Dairy,2351,97,215,41,1,Accepted,Yes,No Change
+user_456,28,Other,None,None,Vegetarian,Breakfast,Chinese,None,2960,44,232,81,3,Accepted,No,No Change
+user_457,30,Male,Hypertension,None,Keto,Dinner,Italian,Dairy,2471,115,245,46,2,Rejected,No,No Change
+user_458,34,Other,Obesity,None,Paleo,Breakfast,Indian,Dairy,2159,108,153,74,2,Rejected,Yes,No Change
+user_459,64,Male,Hypertension,None,Vegan,Lunch,Mexican,Dairy,2625,84,170,61,1,Rejected,No,Improved
+user_460,22,Female,None,Lactose,Omnivore,Lunch,Mexican,Spicy,2012,67,197,38,4,Accepted,No,Improved
+user_461,65,Male,Obesity,Peanuts,Vegetarian,Dinner,American,Spicy,2405,120,236,40,2,Rejected,Yes,No Change
+user_462,21,Female,Diabetes,None,Keto,Breakfast,Chinese,None,1904,73,251,37,2,Accepted,No,No Change
+user_463,43,Male,Hypertension,Lactose,Vegan,Breakfast,American,Spicy,1668,73,161,81,3,Rejected,Yes,Improved
+user_464,43,Other,Heart Disease,Gluten,Vegetarian,Dinner,American,Fried,1935,47,278,68,3,Rejected,Yes,No Change
+user_465,47,Male,None,Peanuts,Vegan,Dinner,American,Fried,1553,77,172,45,2,Rejected,Yes,No Change
+user_466,53,Female,Hypertension,Lactose,Vegan,Dinner,Chinese,Fried,2629,104,103,53,1,Accepted,No,Improved
+user_467,33,Other,Heart Disease,Peanuts,Vegetarian,Breakfast,Chinese,Dairy,2973,108,157,82,2,Accepted,Yes,Improved
+user_468,20,Other,Diabetes,None,Vegetarian,Lunch,Italian,Dairy,1641,110,242,99,1,Rejected,No,Improved
+user_469,33,Female,Obesity,Gluten,Omnivore,Lunch,Italian,None,2790,43,198,56,4,Accepted,No,Improved
+user_470,28,Other,None,Gluten,Vegetarian,Breakfast,Indian,None,2258,95,202,42,2,Rejected,No,Improved
+user_471,44,Male,Heart Disease,Peanuts,Vegetarian,Lunch,Italian,Dairy,1614,116,210,90,2,Rejected,No,No Change
+user_472,63,Female,Hypertension,None,Vegetarian,Dinner,Chinese,Fried,1553,92,114,49,3,Rejected,No,No Change
+user_473,51,Female,Hypertension,Peanuts,Vegetarian,Lunch,Mexican,Dairy,2216,95,300,81,4,Rejected,Yes,Improved
+user_474,62,Other,Obesity,Gluten,Keto,Breakfast,Italian,Dairy,2027,102,227,100,2,Accepted,Yes,Improved
+user_475,51,Female,Diabetes,Gluten,Vegetarian,Lunch,Indian,Spicy,2760,104,205,79,1,Rejected,Yes,Improved
+user_476,24,Other,Heart Disease,Gluten,Keto,Lunch,Chinese,Spicy,1573,79,261,96,3,Rejected,Yes,No Change
+user_477,31,Male,Heart Disease,Lactose,Paleo,Dinner,Mexican,Spicy,1711,90,171,78,4,Accepted,Yes,No Change
+user_478,53,Other,None,Lactose,Vegetarian,Lunch,Chinese,Fried,2472,97,153,87,5,Accepted,Yes,No Change
+user_479,26,Other,Diabetes,Lactose,Vegetarian,Lunch,Mexican,None,1849,120,156,94,1,Rejected,No,No Change
+user_480,25,Other,Diabetes,Gluten,Keto,Lunch,American,Dairy,2291,95,243,93,4,Accepted,Yes,No Change
+user_481,67,Female,Obesity,Lactose,Paleo,Dinner,Italian,Spicy,1740,82,290,55,2,Accepted,No,Improved
+user_482,38,Other,None,None,Vegetarian,Lunch,Italian,Spicy,2780,84,111,46,2,Rejected,Yes,No Change
+user_483,51,Male,Heart Disease,None,Paleo,Breakfast,Italian,None,1709,109,248,68,2,Rejected,Yes,Improved
+user_484,18,Male,Obesity,Lactose,Paleo,Dinner,Chinese,Fried,2300,74,218,64,1,Accepted,No,Improved
+user_485,64,Other,Obesity,None,Paleo,Lunch,American,Fried,2120,48,252,36,2,Rejected,Yes,Improved
+user_486,61,Other,Obesity,Peanuts,Vegetarian,Dinner,Indian,Fried,2987,79,260,92,3,Rejected,No,No Change
+user_487,21,Female,Hypertension,Gluten,Omnivore,Lunch,Indian,None,1553,65,124,46,5,Accepted,Yes,No Change
+user_488,18,Female,None,Gluten,Paleo,Lunch,Chinese,None,1714,89,299,60,2,Rejected,No,Improved
+user_489,58,Other,Heart Disease,None,Vegetarian,Breakfast,Italian,Spicy,1822,53,235,94,5,Rejected,No,No Change
+user_490,40,Other,Hypertension,Gluten,Vegetarian,Dinner,American,Fried,1523,87,175,66,3,Accepted,No,Improved
+user_491,43,Female,Diabetes,Peanuts,Paleo,Dinner,Indian,Spicy,2459,50,101,46,4,Accepted,Yes,Improved
+user_492,18,Female,None,Gluten,Vegan,Lunch,Italian,Spicy,1532,79,239,52,2,Rejected,No,Improved
+user_493,59,Female,Diabetes,Peanuts,Paleo,Lunch,Mexican,Fried,2595,81,139,73,4,Rejected,Yes,No Change
+user_494,21,Male,Obesity,Lactose,Vegan,Lunch,Mexican,Fried,2295,101,153,83,1,Accepted,No,Improved
+user_495,41,Other,Hypertension,Peanuts,Keto,Dinner,Italian,None,2778,61,219,78,2,Rejected,No,Improved
+user_496,55,Male,Diabetes,Peanuts,Vegetarian,Breakfast,Italian,Dairy,2096,47,195,74,1,Accepted,Yes,No Change
+user_497,71,Female,Obesity,Gluten,Keto,Dinner,Chinese,Spicy,2502,103,119,50,3,Accepted,Yes,Improved
+user_498,73,Female,Heart Disease,Peanuts,Vegan,Dinner,Mexican,Dairy,2550,49,292,58,2,Accepted,Yes,Improved
+user_499,42,Male,Heart Disease,Peanuts,Omnivore,Dinner,American,None,2986,66,189,80,4,Rejected,Yes,Improved
+user_500,38,Other,None,Lactose,Paleo,Lunch,American,Dairy,1720,90,106,55,2,Rejected,Yes,Improved
